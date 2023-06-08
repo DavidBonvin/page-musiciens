@@ -20,7 +20,7 @@ export const Main = () => {
             <TypeAnimation
               sequence={[
                 "Développeur web", // Types 'One'
-                2000, // Waits 1s
+                1000, // Waits 1s
                 "JavaScript", // Types 'One'
                 1000, // Waits 1s
                 "NodeJS", // Deletes 'One' and types 'Two'
@@ -31,6 +31,15 @@ export const Main = () => {
                 1000,
                 "Express",
                 1000,
+                "ViteJS",
+                1000,
+                "Docker",
+                1000,
+                "Développeur backend et front-end", // Types 'One'
+                1000,
+                "DevOps", // Types 'One'
+                1000,
+                
               ]}
               wrapper="span"
               cursor={true}
