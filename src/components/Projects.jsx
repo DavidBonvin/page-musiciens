@@ -4,7 +4,7 @@ import { ProjectItem } from './ProjectItem'
 export const Projects = () => {
   return (
    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
-   <h1 className='text-4xl fond-bold text-center text-[#001b5e]'>Projects</h1>
+   <h1 className='text-4xl font-bold text-center mb-4 text-[#001b5e]'>Projects</h1>
    <p className='text-center py-8'>
     Este projecto se trata de una app en microservicios, es un red social, se llama Tree-up, todavia no esta en la web, pero espero que pronto lo este. 
    </p>

@@ -18,11 +18,18 @@ export const Main = () => {
             
             <TypeAnimation
               sequence={[
-                "Guitarriste", // Types 'One'
+                "Développeur web", // Types 'One'
                 2000, // Waits 1s
-                "Vocaliste", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                "Compositor", // Types 'Three' without deleting 'Two'
+                "JavaScript", // Types 'One'
+                1000, // Waits 1s
+                "NodeJS", // Deletes 'One' and types 'Two'
+                1000, // Waits 2s
+                "React ",
+                1000, // Types 'Three' without deleting 'Two'
+                "TailwindCss ",
+                1000,
+                "Express",
+                1000,
               ]}
               wrapper="span"
               cursor={true}
