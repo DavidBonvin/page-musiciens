@@ -13,9 +13,10 @@ export const Main = () => {
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">David Cordoba</h1>
+          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
+            David Cordoba
+          </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            
             <TypeAnimation
               sequence={[
                 "Développeur web", // Types 'One'
@@ -42,10 +43,18 @@ export const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <BsFacebook className="cursor-pointer" size={20}/>
-            <BsInstagram className="cursor-pointer" size={20}/>
-          <BsLinkedin className="cursor-pointer" size={20}/>
-          <BsTwitter className="cursor-pointer" size={20}/>  
+            <a href="https://www.facebook.com/davis.cordoba.18/" target="_blank" rel="noreferrer">
+              <BsFacebook className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.instagram.com/bonvincode/" target="_blank" rel="noreferrer">
+              <BsInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/bonvincode/" target="_blank" rel="noreferrer">
+              <BsLinkedin className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://twitter.com/bonvincode" target="_blank" rel="noreferrer">
+              <BsTwitter className="cursor-pointer" size={20} />{" "}
+            </a>
           </div>
         </div>
       </div>

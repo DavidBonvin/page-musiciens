@@ -9,10 +9,10 @@ export const Projects = () => {
     Este projecto se trata de una app en microservicios, es un red social, se llama Tree-up, todavia no esta en la web, pero espero que pronto lo este. 
    </p>
    <div className=' grid sm:grid-cols-2 gap-12'>
-    <ProjectItem img='https://i.imgur.com/KNloxEO.png' title='Porfolio #1'/>
-    <ProjectItem img='https://i.imgur.com/FNdFy1A.png' title='Porfolio #1'/>
-    <ProjectItem img='https://i.imgur.com/UoOxi66.png' title='Porfolio #1'/>
-    <ProjectItem img='https://i.imgur.com/q1R78j7.png' title='Porfolio #1'/>
+    <ProjectItem img='https://i.imgur.com/KNloxEO.png' title='Porfolio #1' url='https://davidbonvin.github.io/David-Bonvin/'/>
+    <ProjectItem img='https://i.imgur.com/7utvTGm.png' title='Porfolio #2' url='https://www.davidbovin.com/' />
+    <ProjectItem img='https://i.imgur.com/UoOxi66.png' title='Ekna' url='https://www.ekna.fr/'/>
+    <ProjectItem img='https://i.imgur.com/q1R78j7.png' title='Tree-up' url='/'/>
 
    </div>
   </div>
