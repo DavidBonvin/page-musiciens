@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export const Main = () => {
   return (
-    <div id="main">
+    <div id="David">
       <img
         className="w-full h-screen object-cover object-top"
         src="https://i.imgur.com/p0SxmSY.jpg"

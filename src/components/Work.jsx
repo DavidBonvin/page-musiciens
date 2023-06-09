@@ -30,7 +30,7 @@ const data= [
 ]
 export const Work = () => {
   return (
-    <div id='work' className='max-w-[1040px] m-auto
+    <div id='experiences' className='max-w-[1040px] m-auto
      md:pl-20 p-4 py-16'>
       <h1 className='text-4xl font-bold text-center mb-4 text-[#001b5e]' >Expérience</h1>
      {data.map((item, idx) => (
