@@ -12,7 +12,7 @@ export const Projects = () => {
     <ProjectItem img='https://i.imgur.com/KNloxEO.png' title='Porfolio #1' url='https://davidbonvin.github.io/David-Bonvin/'/>
     <ProjectItem img='https://i.imgur.com/7utvTGm.png' title='Porfolio #2' url='https://www.davidbovin.com/' />
     <ProjectItem img='https://i.imgur.com/UoOxi66.png' title='Ekna' url='https://www.ekna.fr/'/>
-    <ProjectItem img='https://i.imgur.com/q1R78j7.png' title='Tree-up' url='/'/>
+    <ProjectItem img='https://i.imgur.com/q1R78j7.png' title='Tree-up' url='https://github.com/DavidBonvin/personal-project---social-network'/>
 
    </div>
   </div>
