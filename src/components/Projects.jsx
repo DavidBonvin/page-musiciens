@@ -9,9 +9,11 @@ export const Projects = () => {
     
    </p>
    <div className=' grid sm:grid-cols-2 gap-12'>
+   <ProjectItem img='https://i.imgur.com/vk8xO9F.png' title='Web 3D' url='https://porfolio3d-liard.vercel.app/#about'/>
+   <ProjectItem img='https://i.imgur.com/UoOxi66.png' title='Ekna' url='https://www.ekna.fr/'/>
     <ProjectItem img='https://i.imgur.com/KNloxEO.png' title='Porfolio #1' url='https://davidbonvin.github.io/David-Bonvin/'/>
     <ProjectItem img='https://i.imgur.com/7utvTGm.png' title='Porfolio #2' url='https://www.davidbovin.com/' />
-    <ProjectItem img='https://i.imgur.com/UoOxi66.png' title='Ekna' url='https://www.ekna.fr/'/>
+    
     <ProjectItem img='https://i.imgur.com/q1R78j7.png' title='Tree-up' url='https://github.com/DavidBonvin/personal-project---social-network'/>
 
    </div>

@@ -8,7 +8,7 @@ export const Main = () => {
     <div id="David">
       <img
         className="w-full h-screen object-cover object-top"
-        src="https://i.imgur.com/p0SxmSY.jpg"
+        src="https://i.imgur.com/i522Wg5.jpg"
         alt="img-david"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
